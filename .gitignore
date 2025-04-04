@@ -3,6 +3,7 @@ node_modules/
 
 # Ignore build files
 .next/
+*.log
 dist/
 out/
 
