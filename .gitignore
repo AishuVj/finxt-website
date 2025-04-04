@@ -6,6 +6,8 @@ node_modules/
 *.log
 dist/
 out/
+*.pack
+*.lock
 
 # Ignore logs
 npm-debug.log
