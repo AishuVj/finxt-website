@@ -1,4 +1,4 @@
-import Layout from '../components/LayOut';
+import Layout from '../components/Layout';
 import {
   BrainCircuit,
   Bot,

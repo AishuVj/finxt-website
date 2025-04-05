@@ -1,5 +1,5 @@
 // pages/thank-you.js
-import Layout from '../components/LayOut';
+import Layout from '../components/Layout';
 
 export default function ThankYou() {
   return (
