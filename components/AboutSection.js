@@ -3,19 +3,23 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="py-16 px-6 mt-24"
+      className="py-16 px-6 mt-18"
       style={{ backgroundColor: '#f7f3ed' }} // Soft peach background
     >
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-6xl  mb-4 tracking-wide" style={{color: '#2f6d6a'}}>FinXTrust</h2>
+        <h2 className="text-6xl  mb-4 tracking-wide" style={{color: '#2f6d6a'}}>Welcome to FinXTrust</h2>
         <h2 className="text-4xl   mb-3" style={{color: '#2f6d6a'}}>
           Empowering Your Business through Innovative AI Solutions
         </h2>
         <p className="text-gray-600 max-w-6xl mx-auto text-justify px-4 mb-10">
-        Our team at FinXT empowers businesses by providing innovative AI solutions tailored to meet unique needs.
-         We specialize in AI strategy consulting, custom chatbots development,
-          data analytics, and advanced cyber-security. Our expert team collaborates with clients to enhance operations and
-          navigate the digital landscape, turning challenges into opportunities for growth and success.
+        At FinXT, we harness the power of artificial intelligence to revolutionize your business, transforming challenges into opportunities. Specializing in strategic AI solutions, we're your trusted partner in driving growth, enhancing security, and delivering unparalleled customer experiences.
+                        Why Choose FinXT?
+              - Cutting-edge AI technologies
+              - Personalized consulting and solutions
+              - Commitment to compliance and cybersecurity
+              - Proven expertise in industry-leading solutions
+        Elevate your business today and embrace the future confidently with FinXT.
+
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
