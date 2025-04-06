@@ -5,7 +5,7 @@ export default function HeroSection() {
         <img
          src="/images/MainPicture.jpg"
          
-         className="w-full object-cover h-[300px] md:h-[500px] lg:h-[600px] rounded-md shadow-md"
+         className="w-full object-contain max-h-[300px] md:max-h-[500px] lg:max-h-[600px] rounded-md shadow-md"
         />
    
     </section>
