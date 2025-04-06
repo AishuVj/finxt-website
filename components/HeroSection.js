@@ -1,7 +1,7 @@
 
 export default function HeroSection() {
   return (
-    <section className="px-10 pt-10">
+    <section className="">
         <img
          src="/images/MainPicture.jpg"
          
