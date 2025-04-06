@@ -5,7 +5,7 @@ export default function HeroSection() {
         <img
          src="/images/MainPicture.jpg"
          alt="Hero"
-         className="w-full h-[300px] object-cover rounded-md shadow-md"
+         className="w-full h-[300px] object-cover"
         />
    
     </section>
