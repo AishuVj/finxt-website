@@ -2,12 +2,10 @@
 export default function HeroSection() {
   return (
     <section className="px-10 pt-10">
-        <Image
+        <img
          src="/images/MainPicture.jpg"
-         alt="Hero"
-         width={1200}
-         height={400}
-         className="w-full h-auto object-cover"
+         
+         className="w-full h-auto object-contain max-h-[300px] rounded-md shadow-md"
         />
    
     </section>
