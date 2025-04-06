@@ -6,27 +6,20 @@ export default function About() {
     {
       name: 'Tarun Addu',
       title: 'Chief Operating Officer',
-      shortDescription: 'Tarun brings extensive experience in business analysis...',
+      shortDescription: 'As our Chief Operating Officer (COO), Tarun brings extensive experience in ...',
       fullDescription:
-        'Tarun brings extensive experience in strategic business analysis, product management, and operations, particularly within government and public sector organizations. His primary focus is to optimize our company’s operational performance, spearheading strategic process improvements.',
+        'As our Chief Operating Officer (COO), Tarun brings extensive experience in strategic business analysis, product management, and operations, particularly within government and public sector organizations. His primary focus is to optimize our company operational performance, spearheading strategic projects, managing resources efficiently, and ensuring seamless coordination across departments to achieve our collective goals.With deep expertise in IT procurement, cybersecurity, and AI, he leads the development and implementation of operational strategies that enhance security, efficiency, and innovation across our organization. Tarun is committed to transforming complex challenges into practical solutions that drive continuous improvement and sustainable growth.He remains passionate about collaboration, exchanging ideas, and contributing to initiatives that strengthen our mission and long-term success. We are proud to have him as a key leader within our team, helping shape the future of our organization.Feel free to connect with him—together, we can continue delivering impactful results.',
       image: '/images/avatar1.svg',
     },
     {
       name: 'Anusha Addu',
       title: 'Founder & CEO',
-      shortDescription: 'Anusha is the visionary force behind our long-term growth...',
+      shortDescription: 'As the Founder and Chief Executive Officer (CEO) of our company, Anusha is the visionary force...',
       fullDescription:
-        'Anusha is the visionary force driving our strategic direction and long-term growth. With a passion for innovation and a relentless focus on impact, she established FinXT with a mission to deliver high-quality, future-focused solutions to clients globally.',
+        'As the Founder and Chief Executive Officer (CEO) of our company, Anusha is the visionary force driving our strategic direction and long-term growth. With a passion for innovation and a relentless focus on impact, she established the company with a mission to deliver high-quality, future-focused solutions that meet the evolving needs of our clients. Anusha brings a wealth of experience in business leadership, technology, and operational transformation. Under her leadership, the company has grown from a bold idea into a trusted organisation known for its integrity, excellence, and forward-thinking approach. A strong advocate for collaboration, culture, and customer-centricity, Anusha continues to inspire the team to push boundaries and deliver real value to clients worldwide.',
       image: '/images/avatar2.svg',
     },
-    {
-      name: 'Asher Schmitt',
-      title: 'Co-founder & CEO',
-      shortDescription: 'Asher leads the company’s AI product development...',
-      fullDescription:
-        'Asher is passionate about AI strategy and development. He has helped numerous organizations innovate by introducing machine learning and AI-based solutions, driving measurable results across industries.',
-      image: '/images/avatar3.svg',
-    },
+   
   ];
 
   const [expanded, setExpanded] = useState({});
