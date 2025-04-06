@@ -84,9 +84,9 @@ export default function About() {
             At FinXT, we believe in innovation, collaboration, and integrity. If you're passionate about shaping the future of AI and want to be part of an inclusive, dynamic team, we want to hear from you!
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 justify-items-center">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             {initialTeam.map((person, index) => (
-              <div key={index} className="text-center p-6 bg-white border rounde-xl shadow-lg w-full max-w-sm hover:scale-105 transition-transform duration-300">
+              <div key={index} className="text-center p-6 bg-white border rounded-xl shadow-lg  hover:shadow-xl transition-all  max-w-sm mx-auto duration-300">
                 <img
                   src={person.image}
                   alt={person.name}
