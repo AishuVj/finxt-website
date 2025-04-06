@@ -77,10 +77,10 @@ export default function About() {
 
 
       {/* Meet the Team Section */}
-      <section className="text-gray-800 px-6 py-20 bg-white bg-[#f8f4ef]">
+      <section className="bg-gradient-to-br from-[#fef9f9] to-[#e6f0ff] py-20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center">Meet the team</h2>
-          <p className="text-gray-700 mb-10 max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4 text-center text-indigo-900 mb-4">Meet the team</h2>
+          <p className="text-gray-700 mb-10 max-w-3xl mx-auto text-center mb-10">
             At FinXT, we believe in innovation, collaboration, and integrity. If you're passionate about shaping the future of AI and want to be part of an inclusive, dynamic team, we want to hear from you!
           </p>
 
