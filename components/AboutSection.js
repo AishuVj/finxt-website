@@ -3,7 +3,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="py-16 px-6 mt-18"
+      className="py-16 px-6 mt-22"
       style={{ backgroundColor: '#f7f3ed' }} // Soft peach background
     >
       <div className="max-w-6xl mx-auto text-center">
@@ -13,12 +13,14 @@ export default function AboutSection() {
         </h2>
         <p className="text-gray-600 max-w-6xl mx-auto text-justify px-4 mb-10">
         At FinXT, we harness the power of artificial intelligence to revolutionize your business, transforming challenges into opportunities. Specializing in strategic AI solutions, we're your trusted partner in driving growth, enhancing security, and delivering unparalleled customer experiences.
-                        Why Choose FinXT?
-              - Cutting-edge AI technologies
-              - Personalized consulting and solutions
-              - Commitment to compliance and cybersecurity
-              - Proven expertise in industry-leading solutions
-        Elevate your business today and embrace the future confidently with FinXT.
+                        <h3>Why Choose FinXT?</h3>
+              <ul>
+                  <p>Cutting-edge AI technologies</p>
+                  <p>Personalized consulting and solutions</p>
+                  <p>Commitment to compliance and cybersecurity</p>
+                  <p> Proven expertise in industry-leading solutions</p>
+              </ul>
+              <p>Elevate your business today and embrace the future confidently with FinXT.</p>
 
         </p>
 
