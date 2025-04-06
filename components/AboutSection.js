@@ -26,24 +26,7 @@ export default function AboutSection() {
 
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
-        {[
-            { name: 'Tarun', title: 'AI Strategy', img: '/images/avatar1.svg' },
-            { name: 'Anusha', title: 'Data Insights', img: '/images/avatar2.svg' },
-            { name: 'Amayah', title: 'Cybersecurity Specialist', img: '/images/avatar3.svg' },
-            { name: 'Mivaan', title: 'Business Manager', img: '/images/avatar4.svg' },
-          ].map((person) => (
-            <div key={person.name} className="text-center">
-              <img
-                src={person.img}
-                alt={person.name}
-                className="w-28 h-28 rounded-full object-cover mx-auto mb-3 shadow-md"
-              />
-              <h4 className="font-semibold text-gray-800">{person.name}</h4>
-              <p className="text-sm text-amber-700">{person.title}</p>
-            </div>
-          ))}
-        </div>
+        
       </div>
     </section>
   );
