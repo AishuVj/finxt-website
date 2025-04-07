@@ -4,14 +4,14 @@ export default function AboutSection() {
   
   <section
       id="about"
-      className=" max-w-10xl mt-12 py-20 mx-10 bg-gradient-to-br from-[#fdf6ec] to-[#f3ebe3] rounded-xl shadow-md"
+      className="  bg-gradient-to-br from-[#fdf6ec] to-[#f3ebe3] w-full py-20 mt-24 bg-[#0b1c20] text-white rounded-none shadow-md"
     >
       <div className="max-w-6xl mx-auto px-6"> {/* <== this is key! */}
         <div className="text-center">
           <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4">
             Welcome to FinXTrust
           </h2>
-          <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4">
+          <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4">
            Your Gateway to AI-Driven Business Excellence
           </h2>
         </div>
@@ -21,7 +21,7 @@ export default function AboutSection() {
         </p>
         <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">Discover the difference with FinXT – partner with us for a smarter, secure, and more profitable future.</p>
 
-        <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center">
+        <h2 className="text-4xl  font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center">
           Why Choose FinXT?
         </h2>
 

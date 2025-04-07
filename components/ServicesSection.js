@@ -1,10 +1,12 @@
 export default function ServicesSection() {
   return (
-    <section id="services" className="max-w-10xl  py-20 mx-10 mt-24 bg-[#0b1c20] text-white rounded-xl shadow-md">
-      <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6">Services</h2>
+    <section className="w-full py-20 mt-24 bg-[#0b1c20] text-white rounded-none shadow-md">
+      <div className="px-4 md:px-10 text-center">
+        <h2 className="text-4xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-10">
+          Services
+        </h2>
 
-        <div className="grid md:grid-cols-3 gap-12 items-start">
+        <div className="grid md:grid-cols-3 gap-6 md:gap-12 items-start">
           {/* Left Column */}
           <div className="space-y-6 text-left">
             {[
@@ -17,7 +19,9 @@ export default function ServicesSection() {
                 className="bg-[#0f2a2f] p-4 rounded-md shadow-md hover:shadow-lg transition"
               >
                 <h4 className="font-bold text-lg mb-1">{item.title}</h4>
-                <p className="text-[1.125rem] leading-[1.8] tracking-wide text-white-700 max-w-3xl mx-auto">{item.desc}</p>
+                <p className="text-[1.125rem] leading-[1.8] tracking-wide text-white max-w-3xl mx-auto">
+                  {item.desc}
+                </p>
               </div>
             ))}
           </div>
@@ -42,8 +46,10 @@ export default function ServicesSection() {
                 key={i}
                 className="bg-[#0f2a2f] p-4 rounded-md shadow-md hover:shadow-lg transition"
               >
-                <h4 className="font-bold text-lg mb-1 ">{item.title}</h4>
-                <p className="text-[1.125rem] leading-[1.8] tracking-wide text-white-700 max-w-3xl mx-auto">{item.desc}</p>
+                <h4 className="font-bold text-lg mb-1">{item.title}</h4>
+                <p className="text-[1.125rem] leading-[1.8] tracking-wide text-white max-w-3xl mx-auto">
+                  {item.desc}
+                </p>
               </div>
             ))}
           </div>

@@ -62,14 +62,14 @@ export default function About() {
 
 
       {/* Meet the Team Section */}
-      <section className="bg-gradient-to-br from-[#fdf6ec] to-[#f3ebe3] py-20">
-        <div className="max-w-6xl mx-auto">
+      <section className="bg-gradient-to-br from-[#fdf6ec] to-[#f3ebe3] py-20 px-10">
+        <div className="max-w-6xl mx-auto ">
           <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{color: '#2f6d6a'}}>Meet the team</h2>
-          <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">
+          <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700  mx-auto">
             At FinXT, we believe in innovation, collaboration, and integrity. If you're passionate about shaping the future of AI and want to be part of an inclusive, dynamic team, we want to hear from you!
           </p>
 
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-center gap-8 py-10">
             {initialTeam.map((person, index) => (
               <div key={index} className="text-center p-6 bg-white border rounded-xl shadow-lg w-full max-w-sm hover:scale-105 transition-transform duration-300">
                 <img
