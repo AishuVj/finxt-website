@@ -32,7 +32,7 @@ export default function CareersPage() {
         </ul>
 
         <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">
-        Explore exciting career opportunities at FinXT. View current job openings or send your resume along with a brief introduction.  <a href="mailto:careers@finxt.ai" className="text-blue-600 underline">careers@finxt.ai</a>.Join us in building a brighter, smarter, AI-powered future! Let's build the future together!
+        Explore exciting career opportunities at FinXT. View current job openings or send your resume along with a brief introduction.  <a href="mailto:career@finxt.uk" className="text-blue-600 underline">careers@finxt.ai</a>.Join us in building a brighter, smarter, AI-powered future! Let's build the future together!
         </p>
       </section>
     </Layout>
