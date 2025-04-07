@@ -25,9 +25,13 @@ export default function ContactPage() {
           name="contact"
           method="POST"
           data-netlify="true"
+          netlify-honeypot="bot-field"
           className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white p-8 shadow-md rounded-md"
         >
           <input type="hidden" name="form-name" value="contact" />
+          <p className="hidden">
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+          </p>
 
           <div className="flex flex-col space-y-4">
             <input
