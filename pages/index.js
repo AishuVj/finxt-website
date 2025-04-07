@@ -8,8 +8,9 @@ export default function Home() {
   return (
     <>
      <Layout>
-      <main className="pt-2 bg-[#fdfaf7]">
-        <HeroSection />
+      <HeroSection />
+      <main className=" bg-[#fdfaf7]">
+        
         <AboutSection />
         <ServicesSection />
       </main>  

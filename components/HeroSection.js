@@ -1,11 +1,11 @@
 
 export default function HeroSection() {
   return (
-    <section className="mt-10">
+    <section className="w-full relative">
         <img
          src="/images/MainPicture.jpg"
-         
-         className="w-full object-contain max-h-[300px] md:max-h-[500px] lg:max-h-[600px] "
+         alt="Hero"
+         className="w-full object-cover h-auto  "
         />
    
     </section>

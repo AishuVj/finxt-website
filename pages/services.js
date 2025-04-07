@@ -48,10 +48,13 @@ export default function Services() {
     <Layout>
       <section className="py-16 px-6 min-h-screen">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{ color: '#2f6d6a' }}>
+          
+          <h1
+            className="text-4xl  font-heading text-[#2f6d6a] leading-snug tracking-wide mb-12 text-center underline underline-offset-8 decoration-2"
+          >
             Our Services
           </h1>
-          <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{ color: '#2f6d6a' }}>
+          <h2 className="text-4xl  font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center " style={{ color: '#2f6d6a' }}>
             Innovative AI Services Tailored for Success
           </h2>
 

@@ -4,44 +4,66 @@ export default function AboutSection() {
   
   <section
       id="about"
-      className="  bg-gradient-to-br from-[#fdf6ec] to-[#f3ebe3] w-full py-20 mt-24 bg-[#0b1c20] text-white rounded-none shadow-md"
+      className=" w-full py-16 px-4 text-white rounded-none shadow-md"
     >
-      <div className="max-w-6xl mx-auto px-6"> {/* <== this is key! */}
-        <div className="text-center">
-          <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4">
+      <div className="max-w-7xl mx-auto text-center"> {/* <== this is key! */}
+       
+          <h1 className="text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-10">
             Welcome to FinXTrust
+          </h1>
+          <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6">
+          Powering the Future with AI-Driven Digital Transformation. Securely. Strategically. Seamlessly.
           </h2>
-          <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4">
-           Your Gateway to AI-Driven Business Excellence
-          </h2>
-        </div>
-
-        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">
-        At FinXT, we combine the transformative power of artificial intelligence with deep industry expertise to drive your business into the future. We specialize in creating reliable, cutting-edge AI solutions customized for each client's specific needs. With FinXT, innovation meets reliability, ensuring your business not only thrives but leads in today’s competitive landscape.
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-800 ">
+            At FINXT, we are an AI-focused transformation company on a mission to help organisations harness the full power of artificial intelligence, data, and digital innovation.
         </p>
-        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">Discover the difference with FinXT – partner with us for a smarter, secure, and more profitable future.</p>
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-800 ">
+            We don’t just deliver technology—we design intelligent, secure, and scalable solutions that solve real-world problems. From AI strategy and cybersecurity to smart data analytics and digital change delivery, our work is built to empower public and private sector organisations to move with speed and confidence.
+        </p>
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-800 ">
 
-        <h2 className="text-4xl  font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center">
-          Why Choose FinXT?
-        </h2>
+            We specialise in mission-critical programmes, especially across the UK Public and regulated sectors, where precision, trust, and measurable outcomes are essential.
+        </p>
+       
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">
-          {[
-            'Innovative AI-driven strategies tailored to your business',
-            'Proven track record of successful implementations',
-            'Unwavering commitment to data security and compliance',
-            'Deep industry insights and expertise',
-            'Exceptional customer support and partnership',
-            'Personized consulting and solutions',
-          ].map((item, idx) => (
-            <div
-              key={idx}
-              className="bg-white rounded-xl shadow-md p-6 text-center font-medium text-gray-800 hover:shadow-lg transition"
-            >
-              {item}
-            </div>
-          ))}
-        </div>
+        {/* Why Work With Us */}
+      <section className="max-w-7xl mx-auto py-12 px-6">
+          <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-10 text-center">
+            Why Choose FinXT?
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {[
+              {
+              
+                desc: 'Innovative AI-driven strategies tailored to your business.'
+              },
+              {
+                desc: 'Proven track record of successful implementation.'
+              },
+              {
+                desc: 'Unwavering commitment to data security and compliance.'
+              },
+              {
+                
+                desc: 'Deep industry insights and expertise.'
+              },
+              {
+                
+                desc: 'Exceptional customer support and partnership.'
+              },
+              {
+                
+                desc: 'Personized consulting and solutions.'
+              },
+            ].map((item, idx) => (
+              <div key={idx} className="bg-white shadow-md rounded-lg p-6 border border-gray-200">
+                <h3 className="text-xl font-semibold text-[#2f6d6a] mb-2">{item.title}</h3>
+                <p className="text-gray-700 text-[1.05rem] leading-[1.7]">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+      </section>
+
       </div>
   </section>
   
