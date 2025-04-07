@@ -48,10 +48,10 @@ export default function Services() {
     <Layout>
       <section className="py-16 px-6 min-h-screen">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-6" style={{ color: '#2f6d6a' }}>
+          <h1 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{ color: '#2f6d6a' }}>
             Our Services
           </h1>
-          <h2 className="text-4xl font-bold mb-6" style={{ color: '#2f6d6a' }}>
+          <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{ color: '#2f6d6a' }}>
             Innovative AI Services Tailored for Success
           </h2>
 
@@ -59,7 +59,7 @@ export default function Services() {
             {services.map((service, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg transition duration-300 min-h-[400px]"
+                className="bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg transition duration-300 min-h-[400px] text-3xl lg:text-3xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center "
               >
                 <img
                   src={service.image}
@@ -72,7 +72,7 @@ export default function Services() {
                 >
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-600">{service.text}</p>
+                <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">{service.text}</p>
               </div>
             ))}
           </div>

@@ -38,9 +38,8 @@ export default function About() {
     <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
       {/* Left Text */}
       <div>
-        <h4 className="text-sm text-gray-500 uppercase mb-2">Our company in numbers.</h4>
-        <h2 className="text-3xl font-bold mb-4" style={{ color: '#2f6d6a' }}>Get to know us</h2>
-        <p className="text-gray-700 leading-relaxed">
+        <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{ color: '#2f6d6a' }}>Get to know us</h2>
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">
           Our company, FinXT, is dedicated to empowering businesses through innovative AI solutions.
           We leverage the transformative potential of artificial intelligence to revolutionize business
           practices and turn challenges into opportunities. Specializing in personalized consulting, we
@@ -65,8 +64,8 @@ export default function About() {
       {/* Meet the Team Section */}
       <section className="bg-gradient-to-br from-[#fdf6ec] to-[#f3ebe3] py-20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center text-900 mb-4" style={{color: '#2f6d6a'}}>Meet the team</h2>
-          <p className="text-gray-700 mb-10 max-w-3xl mx-auto text-center mb-10">
+          <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{color: '#2f6d6a'}}>Meet the team</h2>
+          <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">
             At FinXT, we believe in innovation, collaboration, and integrity. If you're passionate about shaping the future of AI and want to be part of an inclusive, dynamic team, we want to hear from you!
           </p>
 
@@ -78,9 +77,9 @@ export default function About() {
                   alt={person.name}
                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h4 className="font-semibold text-xl text-700" style={{color: '#2f6d6a'}}>{person.name}</h4>
-                <p className="text-sm text-gray-500 mb-2">{person.title}</p>
-                <p className="text-sm text-gray-600 mt-2">
+                <h4 className="text-2xl lg:text-3xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{color: '#2f6d6a'}}>{person.name}</h4>
+                <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto" style={{color: '#2f6d6a'}}>{person.title}</p>
+                <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 max-w-3xl mx-auto">
                   {expanded[index] ? person.fullDescription : person.shortDescription}
                 </p>
                 <button

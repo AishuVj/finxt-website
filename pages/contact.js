@@ -5,7 +5,7 @@ export default function ContactPage() {
     <div className="">
       {/* Hero Section */}
       <div className="flex items-center justify-center mb-4">
-          <h1 className="text-3xl md:text-4xl font-bold " style={{ color: '#2f6d6a' }}>Contact Us</h1>
+          <h1 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center">Contact Us</h1>
       </div>
       <section className="relative w-full h-[300px] md:h-[500px] lg:h-[600px]">
         <img
@@ -17,7 +17,7 @@ export default function ContactPage() {
 
       {/* Main Form Section */}
       <section className="max-w-6xl mx-auto py-16 px-6">
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8">
+        <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center">
           Let’s Start a Conversation
         </h2>
 

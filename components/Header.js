@@ -16,7 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className=" w-full z-50 top-0 shadow-md bg-[#fdfaf7]" >
+    <header className=" w-full z-50 top-0 shadow-md " >
       <div className="max-w-[1100px] mx-auto px-4 flex justify-between items-center h-16">
         <h1 className="text-xl font-bold" style={{ color: '#2f6d6a' }}>FinXTrust</h1>
 
