@@ -38,7 +38,7 @@ import {
             <p className="flex items-center justify-center gap-2 text-sm md:text-base">
                 <FontAwesomeIcon icon={faEnvelope} className="text-[#d4af37]" />
                 <a
-                    href="mailto:info@finxt.uk"
+                    href="mailto:info@finxt.ai"
                     aria-label="Send us an email"
                     className="text-white hover:text-[#d4af37] underline underline-offset-4 decoration-1 transition duration-200"
                 >
