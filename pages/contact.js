@@ -4,13 +4,15 @@ export default function ContactPage() {
     <Layout>
     <div className="">
       {/* Hero Section */}
-      <section
-        className="h-64 flex items-center justify-center bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/images/contact.jpg')", // Add your own image here
-        }}
-      >
-        <h1 className="text-4xl md:text-5xl font-bold text-white">Contact Us</h1>
+      <div className="flex items-center justify-center mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold " style={{ color: '#2f6d6a' }}>Contact Us</h1>
+      </div>
+      <section className="relative w-full h-[300px] md:h-[500px] lg:h-[600px]">
+        <img
+          src="/images/contact.png"
+          alt="Contact"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
       </section>
 
       {/* Main Form Section */}
@@ -23,7 +25,7 @@ export default function ContactPage() {
           name="contact"
           method="POST"
           data-netlify="true"
-          className="grid md:grid-cols-2 gap-8 bg-white p-8 shadow-md rounded-md"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-white p-8 shadow-md rounded-md"
         >
           <input type="hidden" name="form-name" value="contact" />
 
@@ -36,29 +38,31 @@ export default function ContactPage() {
               required
             />
             <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              className="p-3 border border-gray-300 rounded-md"
-              required
-            />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              rows={5}
-              className="p-3 border border-gray-300 rounded-md"
-              required
-            />
-          </div>
-
-          <div className="flex flex-col justify-between">
-            <input
               type="text"
               name="last-name"
               placeholder="Last Name"
               className="p-3 border border-gray-300 rounded-md"
               required
             />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              className="p-3 border border-gray-300 rounded-md"
+              required
+            />
+            
+          </div>
+
+          <div className="flex flex-col justify-between">
+          <textarea
+              name="message"
+              placeholder="Your Message"
+              rows={5}
+              className="p-3 border border-gray-300 rounded-md"
+              required
+            />
+            
             <div className="text-sm text-gray-500 my-4">
               Please note: All fields are required.
             </div>

@@ -1,6 +1,6 @@
 export default function ServicesSection() {
   return (
-    <section id="services" className="py-20 px-6 mt-24 bg-[#0b1c20] text-white">
+    <section id="services" className="max-w-10xl mt-12 py-20 mx-10 mt-24 bg-[#0b1c20] text-white rounded-xl shadow-md">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-semibold mb-16">Services</h2>
 

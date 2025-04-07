@@ -39,7 +39,7 @@ export default function About() {
       {/* Left Text */}
       <div>
         <h4 className="text-sm text-gray-500 uppercase mb-2">Our company in numbers.</h4>
-        <h2 className="text-3xl font-bold mb-4">Get to know us</h2>
+        <h2 className="text-3xl font-bold mb-4" style={{ color: '#2f6d6a' }}>Get to know us</h2>
         <p className="text-gray-700 leading-relaxed">
           Our company, FinXT, is dedicated to empowering businesses through innovative AI solutions.
           We leverage the transformative potential of artificial intelligence to revolutionize business
@@ -56,35 +56,21 @@ export default function About() {
           alt="Business Team"
           className="rounded-lg shadow-lg"
         />
-        {/* Stat 1 */}
-        <div className="absolute top-8 right-0 bg-[#0f2a2f] text-white px-4 py-2 rounded-md shadow-md text-sm">
-          <p className="font-bold text-lg">+20</p>
-          <p className="text-xs">Specialists</p>
-        </div>
-        {/* Stat 2 */}
-        <div className="absolute bottom- 0 left-6 bg-[#0f2a2f] text-white px-4 py-2 rounded-md shadow-md text-sm">
-          <p className="font-bold text-lg">+220</p>
-          <p className="text-xs">Satisfied Customers</p>
-        </div>
-        {/* Stat 3 */}
-        <div className="absolute top-2 left-0  bg-[#0f2a2f] text-white px-4 py-2 rounded-md shadow-md text-sm">
-          <p className="font-bold text-lg">+10</p>
-          <p className="text-xs">Completed Projects</p>
-        </div>
+        
       </div>
     </div>
   </section>
 
 
       {/* Meet the Team Section */}
-      <section className="bg-gradient-to-br from-[#fef9f9] to-[#e6f0ff] py-20">
+      <section className="bg-gradient-to-br from-[#fdf6ec] to-[#f3ebe3] py-20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center text-indigo-900 mb-4">Meet the team</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center text-900 mb-4" style={{color: '#2f6d6a'}}>Meet the team</h2>
           <p className="text-gray-700 mb-10 max-w-3xl mx-auto text-center mb-10">
             At FinXT, we believe in innovation, collaboration, and integrity. If you're passionate about shaping the future of AI and want to be part of an inclusive, dynamic team, we want to hear from you!
           </p>
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+          <div className="flex flex-wrap justify-center gap-8">
             {initialTeam.map((person, index) => (
               <div key={index} className="text-center p-6 bg-white border rounded-xl shadow-lg w-full max-w-sm hover:scale-105 transition-transform duration-300">
                 <img
@@ -92,7 +78,7 @@ export default function About() {
                   alt={person.name}
                   className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h4 className="font-semibold text-xl text-indigo-700">{person.name}</h4>
+                <h4 className="font-semibold text-xl text-700" style={{color: '#2f6d6a'}}>{person.name}</h4>
                 <p className="text-sm text-gray-500 mb-2">{person.title}</p>
                 <p className="text-sm text-gray-600 mt-2">
                   {expanded[index] ? person.fullDescription : person.shortDescription}
