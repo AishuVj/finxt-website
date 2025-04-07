@@ -32,14 +32,14 @@ export default function ContactPage() {
           <div className="flex flex-col space-y-4">
             <input
               type="text"
-              name="first-name"
+              name="firstnName"
               placeholder="First Name"
               className="p-3 border border-gray-300 rounded-md"
               required
             />
             <input
               type="text"
-              name="last-name"
+              name="lastName"
               placeholder="Last Name"
               className="p-3 border border-gray-300 rounded-md"
               required
