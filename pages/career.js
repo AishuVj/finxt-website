@@ -4,12 +4,12 @@ export default function CareersPage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-16 px-4">
+      <section className="py-10 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 underline underline-offset-8 decoration-2">
+          <h1 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-8 underline underline-offset-8 decoration-2">
             Careers at FinXT
           </h1>
-          <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4">
+          <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6">
             Shape the Future of AI
           </h2>
           <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-4">
@@ -18,15 +18,15 @@ export default function CareersPage() {
           <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-4">
             At FINXT, we're not just building products, we're creating possibilities. Whether it's driving innovation in public sector services, developing secure and scalable IT procurement solutions, or enabling change in critical infrastructure, our people are at the heart of everything we do.
           </p>
-          <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700">
+          <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 ">
             We're always looking for passionate professionals who are excited to make a real impact. If you're looking for more than just a job—if you're looking to build a meaningful career—you’re in the right place!
           </p>
         </div>
       </section>
 
       {/* Why Work With Us */}
-      <section className="max-w-7xl mx-auto py-12 px-6">
-          <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-10 text-center">
+      <section className="max-w-7xl mx-auto py-8 px-6">
+          <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a]  mb-8 text-center">
             Why Work With Us?
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -58,8 +58,8 @@ export default function CareersPage() {
 
 
       {/* What We Look For */}
-      <section className="max-w-7xl mx-auto py-12 px-6">
-            <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-10 text-center">
+      <section className="max-w-7xl mx-auto py-8 px-6">
+            <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-8 text-center">
               What We Look For
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -82,8 +82,8 @@ export default function CareersPage() {
       </section>
 
       {/* Life at FinXT */}
-      <section className="max-w-7xl mx-auto py-12 px-6">
-            <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-10 text-center">
+      <section className="max-w-7xl mx-auto py-8 px-6">
+            <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-8 text-center">
             Life at FINXT
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -108,20 +108,20 @@ export default function CareersPage() {
 
 
       {/* Open Roles */}
-      <section className="max-w-7xl mx-auto py-12 px-4 text-center">
+      <section className="max-w-7xl mx-auto  py-8 px-4 text-center">
       <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6">
           Ready to Create the Future?
         </h2>
-        <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4">
+        <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6">
           Open Roles
         </h2>
         <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-4">
           We're in a growth phase — New roles will be posted soon.
         </p>
-        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-6">
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-4">
           We’re always excited to connect with brilliant minds. If you're ready to be part of a team that values excellence, innovation, and purpose—we’d love to hear from you.
         </p>
-        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-6">
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-4">
           Drop us your CV and a short note about your interests. If there’s a fit, we’ll reach out.
            Click the button below to reach us,
         </p>
