@@ -53,39 +53,59 @@ export default function About() {
 
   return (
     <Layout>
+      
         {/* Get to Know Us Section */}
-        <section className="py-20 px-6 bg-white">
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 text-center">
-      About Us
-    </h2>
-    <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-6">
-      At <span className="font-semibold text-[#2f6d6a]">FinXT</span>, we exist to bridge the gap between innovation and impact. We're a UK-based consultancy and digital transformation partner focused on leveraging AI to solve real-world problems—securely and strategically.
-    </p>
-    <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-6">
-      Our mission is to simplify complexity and deliver intelligent, scalable solutions that help organisations embrace digital transformation with confidence. We specialise in:
-    </p>
-    <ul className="list-disc list-inside pl-4 text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-6">
-      <li>AI Strategy & Readiness Consulting</li>
-      <li>AI-enhanced Data Analytics</li>
-      <li>Cybersecurity & Threat Detection</li>
-      <li>Smart Payment and Loyalty Platform Development</li>
-      <li>Digital Change Delivery</li>
-    </ul>
-    <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700">
-      Whether you're in the public or private sector, we bring strategic insight, technical expertise, and delivery excellence to every project—working as true partners invested in your long-term success.
-    </p>
-  </div>
-</section>
+  <section className="py-10 px-6">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 text-center underline underline-offset-8 decoration-2">
+          About Us
+        </h2>
+        
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 ">
+          At <span className="font-semibold text-[#2f6d6a]">FinXT</span>, we exist to simplify the complex and deliver what truly matters: secure, intelligent, and impactful digital solutions that empower organisations to evolve with confidence.
+        </p>
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700">
+          Founded with a mission to bridge the gap between strategy and execution, FINXT is a UK-based consultancy and delivery partner specialising in:
+        </p>
+        <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-6">
+          Our mission is to simplify complexity and deliver intelligent, scalable solutions that help organisations embrace digital transformation with confidence. We specialise in:
+        </p>
+        <ul className="list-disc list-inside pl-4 text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 mb-6">
+          <li>AI Strategy & Readiness Consulting</li>
+          <li>AI-enhanced Data Analytics</li>
+          <li>AI-Cybersecurity & Threat Detection</li>
+          <li>Smart Payment integration solutions</li>
+          <li>Digital Change Delivery and Change Delivery</li>
+          <li>Reward and Loyalty Solutions and Platform</li>
+        </ul>
+        <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 text-center">
+          Who we Serve
+        </h2>
+        <div className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 space-y-6">
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 text-center">
+              <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700">Digital & IT Leaders</p>
+              <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700">In the Public & Private Sector</p>
+            </div>
+            <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 text-center">
+              <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700">Private Enterprises</p>
+              <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700">Seeking secure transformation</p>
+            </div>
+          </div>
+          <p className="text-center max-w-3xl mx-auto">
+            Whether you’re looking to streamline services, enhance security, or drive sustainable change —
+            <span className="font-medium text-[#2f6d6a]"> we’re ready to help you get there.</span>
+          </p>
+        </div>
 
-
-
+      </div>
+  </section>
 
       {/* Meet the Team Section */}
-      <section className=" py-20 px-10">
+      <section className="  px-10">
         <div className="max-w-6xl mx-auto ">
-          <h2 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center" style={{color: '#2f6d6a'}}>Meet the team</h2>
-          <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700  mx-auto">
+          <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 text-center" style={{color: '#2f6d6a'}}>Meet the team</h2>
+          <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 ">
             At FinXT, we believe in innovation, collaboration, and integrity. If you're passionate about shaping the future of AI and want to be part of an inclusive, dynamic team, we want to hear from you!
           </p>
 

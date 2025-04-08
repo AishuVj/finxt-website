@@ -8,10 +8,10 @@ export default function AboutSection() {
     >
       <div className="max-w-7xl mx-auto text-center"> {/* <== this is key! */}
        
-          <h1 className="text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-10">
+          <h1 className="text-5xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center ">
             Welcome to FinXTrust
           </h1>
-          <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6">
+          <h2 className="text-3xl  font-heading text-[#2f6d6a] mb-4 text-center">
           Powering the Future with AI-Driven Digital Transformation. Securely. Strategically. Seamlessly.
           </h2>
         <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-800 ">
@@ -28,7 +28,7 @@ export default function AboutSection() {
 
         {/* Why Work With Us */}
       <section className="max-w-7xl mx-auto py-12 px-6">
-          <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-10 text-center">
+          <h2 className="text-3xl lg:text-4xl font-heading text-[#2f6d6a] mb-8 text-center">
             Why Choose FinXT?
           </h2>
           <div className="grid md:grid-cols-2 gap-8">

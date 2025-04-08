@@ -14,12 +14,18 @@ export default function Header() {
     { href: '/contact', label: 'Contact Us' },
 
   ];
-
   return (
     <header className=" w-full z-50 top-0 shadow-md " >
       <div className="max-w-[1100px] mx-auto px-4 flex justify-between items-center h-16">
-        <h1 className="text-xl font-bold" style={{ color: '#2f6d6a' }}>FinXTrust</h1>
-
+        {/* Logo */}
+        <Link href="/" className="flex items-center space-x-2">
+          <img
+            src="/images/logo.webp"
+            alt="FinXTrust Logo"
+            className="h-14 w-auto object-contain"
+          />
+        </Link>
+        
         {/* Hamburger Icon */}
         <button
           className="lg:hidden  focus:outline-none " style={{ color: '#2f6d6a' }} 

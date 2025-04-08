@@ -1,8 +1,8 @@
 export default function ServicesSection() {
   return (
-    <section className="w-full py-20 mt-10 bg-[#0b1c20] text-white rounded-none shadow-md">
+    <section className="w-full py-20 bg-[#0b1c20] text-white rounded-none shadow-md">
       <div className="px-4 md:px-10 text-center">
-        <h2 className="text-4xl lg:text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-10">
+        <h2 className="text-4xl lg:text-4xl font-heading  leading-snug tracking-wide mb-10">
           Services
         </h2>
 

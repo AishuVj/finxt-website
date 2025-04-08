@@ -2,17 +2,14 @@ import Layout from '../components/Layout';
 export default function ContactPage() {
   return (
     <Layout>
-    <div className="">
+  
       {/* Hero Section */}
-      <div className="flex items-center justify-center mb-4">
-          <h1 className="text-4xl lg:text-5xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-4 text-center">Contact Us</h1>
-      </div>
-      <section className="relative w-full h-[300px] md:h-[500px] lg:h-[600px]">
-        <img
-          src="/images/contact.png"
-          alt="Contact"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+      <section className="w-full">
+          <img
+            src="/images/contacts.png"
+            alt="Contact"
+            className="w-full h-auto object-cover"
+          />
       </section>
 
       {/* Main Form Section */}
@@ -79,7 +76,7 @@ export default function ContactPage() {
           </div>
         </form>
       </section>
-    </div>
+    
     </Layout>
   );
 }

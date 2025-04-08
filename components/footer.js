@@ -19,7 +19,7 @@ import {
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-4">
           
           {/* Logo */}
-          <img src="/images/DALL·E 2025-03-29 20.08.44 - A minimalist logo design for 'Fin X T' inspired by a pinhole camera aesthetic. The design should resemble a 19th-century lithograph style with fine, d.webp" alt="FinXT Logo" className="w-24 md:w-28" />
+          <img src="/images/logo.webp" alt="FinXT Logo" className="w-24 md:w-28" />
   
           {/* Contact Info */}
           <div className="text-sm md:text-base space-y-1">
