@@ -57,7 +57,7 @@ export default function About() {
         {/* Get to Know Us Section */}
   <section className="py-10 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 text-center underline underline-offset-8 decoration-2">
+        <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-12 text-center underline underline-offset-8 decoration-2">
           About Us
         </h2>
         
@@ -78,7 +78,7 @@ export default function About() {
           <li>Digital Change Delivery and Change Delivery</li>
           <li>Reward and Loyalty Solutions and Platform</li>
         </ul>
-        <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 text-center">
+        <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-12 text-center">
           Who we Serve
         </h2>
         <div className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 space-y-6">
@@ -104,7 +104,7 @@ export default function About() {
       {/* Meet the Team Section */}
       <section className="  px-10">
         <div className="max-w-6xl mx-auto ">
-          <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-6 text-center" style={{color: '#2f6d6a'}}>Meet the team</h2>
+          <h2 className="text-4xl font-heading text-[#2f6d6a] leading-snug tracking-wide mb-12 text-center" style={{color: '#2f6d6a'}}>Meet the team</h2>
           <p className="text-[1.125rem] leading-[1.8] tracking-wide text-gray-700 ">
             At FinXT, we believe in innovation, collaboration, and integrity. If you're passionate about shaping the future of AI and want to be part of an inclusive, dynamic team, we want to hear from you!
           </p>
