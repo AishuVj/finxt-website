@@ -10,7 +10,6 @@ export default function Home() {
      <Layout>
       <HeroSection />
       <main className=" bg-[#fdfaf7]">
-        
         <AboutSection />
         <ServicesSection />
       </main>  
